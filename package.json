@@ -1,0 +1,39 @@
+{
+  "name": "qldb-auxiliar-methods",
+  "version": "0.0.1",
+  "description": "A simple auxiliar methods lib to deal with Amazon QLDB (peculiar) formats",
+  "main": "./lib/index.js",
+  "bin": {
+    "qldb-util": "bin/qldb-auxiliar-methods.js"
+  },
+  "directories": {
+    "lib": "lib"
+  },
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/karlos-oliveira/qldb-auxiliar-methods.git"
+  },
+  "keywords": [
+    "qldb",
+    "IontoJson",
+    "Json",
+    "QLDBResult",
+    "Ion",
+    "amazonQLDB",
+    "qldb"
+  ],
+  "author": "Carlos Oliveira",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/karlos-oliveira/qldb-auxiliar-methods/issues"
+  },
+  "homepage": "https://github.com/karlos-oliveira/qldb-auxiliar-methods#readme",
+  "dependencies": {
+    "amazon-qldb-driver-nodejs": "^0.1.1-preview.2",
+    "aws-sdk": "^2.596.0",
+    "dotenv": "^8.2.0"
+  }
+}
