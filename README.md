@@ -1,8 +1,8 @@
-# qldb-auxiliar-methods
+# QLDB Auxiliar Methods
 
 This is not a functional npm pack yet, but if you desperately need a parser to deal with amazon QLDB formats, 
 you can use /lib/index.js file. There you'll find all methods that is necessary to send commands with Json parameters,
-get QLDBResult return and turn it on Json Format and another auxiliary methods.
+get QLDBResult return and turn it on Json format and another auxiliary methods.
 
 IMPORTANT:
 
@@ -22,4 +22,4 @@ Por enquanto, para essa "lib" funcionar, você precisa colocar suas credenciais 
 
 Somente AWS_REGION e AWS_SECRET_ACCESS_KEY são obrigatórias.
 
-PS: Esses arquivos precisam ser melhorados, fiz para um rápido projeto de estudo, portanto, use por conta e risco
+OBS: Esses arquivos precisam ser melhorados, fiz para um rápido projeto de estudo, portanto, use por conta e risco
